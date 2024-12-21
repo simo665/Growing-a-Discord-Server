@@ -49,49 +49,18 @@ h1, h2, h3, h4 {
     text-align: center;
 }*/
 
-
-/* Header container to align the logo and title */
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 20px; /* Space between logo and title */
-    margin-top: 50px;
-    margin-bottom: 100px;
-    padding: 10px 20px;
-    background-color: #ffffff; /* Dark background */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-}
-
 /* Styling for the main heading */
 h1 {
     font-family: 'Arial', sans-serif;
-    color: #fff;
-    font-size: 28px; /* Set font size to 28px */
+    color: #000000;
+    font-size: 12px; /* Set font size to 28px */
     letter-spacing: 1px;
     font-weight: bold;
     text-align: center;
     margin: 0;
+    padding-bottom: 100px;
     text-transform: uppercase;
 }
-/* Logo styling */
-.logo {
-    width: 80px; /* Logo size */
-    height: 80px;
-    object-fit: contain;
-    border-radius: 50%;
-    box-shadow: 0 0 8px transparent; /* Start with transparent shadow */
-    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out; /* Transition for both scale and box-shadow */
-}
-
-/* Hover effect for the logo */
-.logo:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 8px rgba(1, 0, 0, 0.3); /* Transition to colored shadow */
-}
-
 
 h2 {
     font-size: 1.8rem;
